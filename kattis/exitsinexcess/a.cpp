@@ -1,15 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+typedef long long ll;
+typedef pair<int, int> ii;
+typedef vector<int> vi;
+typedef vector<ii> vii;
+
 int main() {
     int n, m;
-	cin >> n;
-    cin >> m;
+	cin >> n >> m;
 	vector<int> sets[2];
 	
     for (int corridor = 1, u, v; corridor <= m; ++corridor) {
-		cin >> u;
-        cin >> v;
+		cin >> u >> v;
 		sets[u < v].push_back(corridor);
     }
     

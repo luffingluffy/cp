@@ -15,8 +15,8 @@ int main() {
     }
     
     vector<int> predictedValues;
-    std::istringstream iss(input2);
-    for (int n; iss >> n; ) predictedValues.push_back(n);
+    istringstream iss(input2);
+    for (int n; iss >> n;) predictedValues.push_back(n);
     
     // day 1 actions
     int profitHaveStockSell = -numeric_limits<int>::max();
