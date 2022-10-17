@@ -1,5 +1,7 @@
 # Compilation of CP codes
+This is a compilation of all my CP codes.
 
+Kattis Profile: https://open.kattis.com/users/lutfi-randiva
 ## Kattis
 
 | S/N | Problem Name      | Language | Difficulty |
