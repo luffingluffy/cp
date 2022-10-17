@@ -2,6 +2,9 @@
 This is a compilation of all my CP codes.
 
 Kattis Profile: https://open.kattis.com/users/lutfi-randiva
+Leetcode Profile: https://leetcode.com/luffingluffy/
+Codeforces Profile: https://codeforces.com/profile/luffingluffy
+
 ## Kattis
 
 | S/N | Problem Name      | Language | Difficulty |
