@@ -199,6 +199,7 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[tornbygge](https://open.kattis.com/problems/tornbygge)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/tornbygge.cpp)|
 |[trainpassengers](https://open.kattis.com/problems/trainpassengers)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/trainpassengers.cpp)|
 |[treasurehunt](https://open.kattis.com/problems/treasurehunt)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/treasurehunt.cpp)|
+|[triarea](https://open.kattis.com/problems/triarea)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/triarea.cpp)|
 |[trollhunt](https://open.kattis.com/problems/trollhunt)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/trollhunt.cpp)|
 |[turbo](https://open.kattis.com/problems/turbo)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/turbo.cpp)|
 |[turtlemaster](https://open.kattis.com/problems/turtlemaster)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/turtlemaster.cpp)|
