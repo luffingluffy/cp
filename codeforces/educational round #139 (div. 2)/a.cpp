@@ -154,34 +154,10 @@ void print(const H& h, const T&... t) {
 */
 
 void solve() {
-    int n;
-    cin >> n;
+    string s;
+    cin >> s;
 
-    vi v1(n);
-    vi v2(n);
-    vector<bool> seen(n, false);
-
-    FOR(n)
-    cin >> v1[i];
-
-    FOR(n)
-    cin >> v2[v1[i] - 1];
-
-    int swaps = n;
-    FOR(n) {
-        if (!seen[i]) {
-            swaps--;
-            for (int j = i; !seen[j]; j = v2[j] - 1) {
-                seen[j] = true;
-            }
-        }
-    }
-
-    if (swaps % 2 == 0) {
-        print("Possible");
-    } else {
-        print("Impossible");
-    }
+    cout << 9 * (sz(s) - 1) + (s[0] - '0') << endl;
 }
 
 int main() {
@@ -189,7 +165,7 @@ int main() {
     cin.tie(0);
 
     int t = 1;
-    // read(t);
+    read(t);
     FOR(t) {
         // write("Case #", i + 1, ": ");
         solve();

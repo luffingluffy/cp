@@ -31,6 +31,7 @@ typedef vector<vector<string>> vvs;
 #define uset unordered_set
 #define all(c) (c).begin(), (c).end()
 #define sz(x) (int)(x).size()
+#define INF numeric_limits<ll>::max()
 
 #define F_OR(i, a, b, s) for (int i = (a); (s) > 0 ? i < (b) : i > (b); i += (s))
 #define F_OR1(e) F_OR(i, 0, e, 1)
@@ -154,34 +155,20 @@ void print(const H& h, const T&... t) {
 */
 
 void solve() {
-    int n;
-    cin >> n;
+    vll v(100001);
+    ll mi = INF, ma = -INF;
+    ll n;
+    read(n);
 
-    vi v1(n);
-    vi v2(n);
-    vector<bool> seen(n, false);
-
-    FOR(n)
-    cin >> v1[i];
-
-    FOR(n)
-    cin >> v2[v1[i] - 1];
-
-    int swaps = n;
     FOR(n) {
-        if (!seen[i]) {
-            swaps--;
-            for (int j = i; !seen[j]; j = v2[j] - 1) {
-                seen[j] = true;
-            }
-        }
+        ll x;
+        read(x);
+        mi = min(mi, x);
+        ma = max(ma, x);
+        v[x]++;
     }
 
-    if (swaps % 2 == 0) {
-        print("Possible");
-    } else {
-        print("Impossible");
-    }
+    mi == ma ? cout << v[mi] * (v[mi] - 1) << endl : cout << 2 * v[mi] * v[ma] << endl;
 }
 
 int main() {
@@ -189,7 +176,7 @@ int main() {
     cin.tie(0);
 
     int t = 1;
-    // read(t);
+    read(t);
     FOR(t) {
         // write("Case #", i + 1, ": ");
         solve();

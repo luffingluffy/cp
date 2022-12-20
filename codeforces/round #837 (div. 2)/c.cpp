@@ -31,6 +31,7 @@ typedef vector<vector<string>> vvs;
 #define uset unordered_set
 #define all(c) (c).begin(), (c).end()
 #define sz(x) (int)(x).size()
+#define INF numeric_limits<ll>::max()
 
 #define F_OR(i, a, b, s) for (int i = (a); (s) > 0 ? i < (b) : i > (b); i += (s))
 #define F_OR1(e) F_OR(i, 0, e, 1)
@@ -153,43 +154,76 @@ void print(const H& h, const T&... t) {
     sz(x): x.size()
 */
 
+int const N = sqrt(1e9);
+
+vi primes;
+void sieve(int n) {
+    vi isPrime(n + 1, 1);
+    for (int i = 2; i <= N; i++) {
+        if (isPrime[i]) {
+            primes.push_back(i);
+        }
+        for (auto p : primes) {
+            if (i * p > N) {
+                break;
+            }
+            isPrime[i * p] = 0;
+            if (i % p == 0) {
+                break;
+            }
+        }
+    }
+}
+
 void solve() {
     int n;
     cin >> n;
 
-    vi v1(n);
-    vi v2(n);
-    vector<bool> seen(n, false);
+    vi a(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
 
-    FOR(n)
-    cin >> v1[i];
-
-    FOR(n)
-    cin >> v2[v1[i] - 1];
-
-    int swaps = n;
-    FOR(n) {
-        if (!seen[i]) {
-            swaps--;
-            for (int j = i; !seen[j]; j = v2[j] - 1) {
-                seen[j] = true;
+    unordered_set<int> s;
+    for (int i = 0; i < n; i++) {
+        int x = a[i];
+        for (auto p : primes) {
+            if (p * p > x) {
+                break;
             }
+
+            if (x % p == 0) {
+                if (s.contains(p)) {
+                    cout << "YES" << endl;
+                    return;
+                }
+                s.insert(p);
+                while (x % p == 0) {
+                    x /= p;
+                }
+            }
+        }
+
+        if (x > 1) {
+            if (s.contains(x)) {
+                cout << "YES" << endl;
+                return;
+            }
+            s.insert(x);
         }
     }
 
-    if (swaps % 2 == 0) {
-        print("Possible");
-    } else {
-        print("Impossible");
-    }
+    cout << "NO" << endl;
 }
 
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
 
+    sieve(N);
+
     int t = 1;
-    // read(t);
+    read(t);
     FOR(t) {
         // write("Case #", i + 1, ": ");
         solve();
