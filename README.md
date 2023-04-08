@@ -1,9 +1,9 @@
 # Compilation of CP codes
 This is a compilation of all my CP codes.
 
-Kattis Profile: https://open.kattis.com/users/lutfi-randiva
-Codeforces Profile: https://codeforces.com/profile/luffingluffy
-Leetcode Profile: https://leetcode.com/luffingluffy/
+Kattis Profile: https://open.kattis.com/users/luffingluffy  
+Codeforces Profile: https://codeforces.com/profile/luffingluffy  
+Leetcode Profile: https://leetcode.com/luffingluffy/  
 
 Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/tree/master/repo-scripts
 
