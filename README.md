@@ -1,16 +1,19 @@
 # Compilation of CP codes
+
 This is a compilation of all my CP codes.
 
-Kattis Profile: https://open.kattis.com/users/luffingluffy  
-Codeforces Profile: https://codeforces.com/profile/luffingluffy  
-Leetcode Profile: https://leetcode.com/luffingluffy/  
+Kattis Profile: <https://open.kattis.com/users/luffingluffy>  
+Codeforces Profile: <https://codeforces.com/profile/luffingluffy>  
+Leetcode Profile: <https://leetcode.com/luffingluffy>  
 
-Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/tree/master/repo-scripts
+Kattis table script taken from: <https://github.com/matthewReff/Kattis-Problems/tree/master/repo-scripts>  
 
-## Kattis
-| Problem | Language |
-|:-------:|:--------:|
+## Kattis  
+
+| Problem | Language |  
+|:-------:|:--------:|  
 |[2048](https://open.kattis.com/problems/2048)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/2048.cpp)|
+|[@todo:sacredtext](https://open.kattis.com/problems/@todo:sacredtext)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/@todo:sacredtext.cpp)|
 |[abc](https://open.kattis.com/problems/abc)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/abc.cpp)|
 |[acm](https://open.kattis.com/problems/acm)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/acm.cpp)|
 |[acm2](https://open.kattis.com/problems/acm2)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/acm2.cpp)|
@@ -38,11 +41,13 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[birds](https://open.kattis.com/problems/birds)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/birds.cpp)|
 |[bitsequalizer](https://open.kattis.com/problems/bitsequalizer)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/bitsequalizer.cpp)|
 |[bossbattle](https://open.kattis.com/problems/bossbattle)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/bossbattle.cpp)|
+|[bread](https://open.kattis.com/problems/bread)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/bread.cpp)|
 |[brokencalculator](https://open.kattis.com/problems/brokencalculator)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/brokencalculator.cpp)|
 |[brokenswords](https://open.kattis.com/problems/brokenswords)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/brokenswords.cpp)|
 |[bubbletea](https://open.kattis.com/problems/bubbletea)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/bubbletea.cpp)|
 |[carrots](https://open.kattis.com/problems/carrots)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/carrots.cpp)|
 |[cetiri](https://open.kattis.com/problems/cetiri)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/cetiri.cpp)|
+|[chanukah](https://open.kattis.com/problems/chanukah)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/chanukah.cpp)|
 |[chess](https://open.kattis.com/problems/chess)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/chess.cpp)|
 |[chopin](https://open.kattis.com/problems/chopin)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/chopin.cpp)|
 |[cinema](https://open.kattis.com/problems/cinema)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/cinema.cpp)|
@@ -57,9 +62,11 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[compass](https://open.kattis.com/problems/compass)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/compass.cpp)|
 |[connectthedots](https://open.kattis.com/problems/connectthedots)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/connectthedots.cpp)|
 |[conteststruggles](https://open.kattis.com/problems/conteststruggles)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/conteststruggles.cpp)|
+|[countthevowels](https://open.kattis.com/problems/countthevowels)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/countthevowels.cpp)|
 |[cowcrane](https://open.kattis.com/problems/cowcrane)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/cowcrane.cpp)|
 |[creditcard](https://open.kattis.com/problems/creditcard)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/creditcard.cpp)|
 |[curvespeed](https://open.kattis.com/problems/curvespeed)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/curvespeed.cpp)|
+|[cutthenegativity](https://open.kattis.com/problems/cutthenegativity)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/cutthenegativity.cpp)|
 |[deduplicatingfiles](https://open.kattis.com/problems/deduplicatingfiles)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/deduplicatingfiles.cpp)|
 |[different](https://open.kattis.com/problems/different)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/different.cpp)|
 |[digits](https://open.kattis.com/problems/digits)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/digits.cpp)|
@@ -121,7 +128,7 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[jumbojavelin](https://open.kattis.com/problems/jumbojavelin)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/jumbojavelin.cpp)|
 |[justaminute](https://open.kattis.com/problems/justaminute)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/justaminute.cpp)|
 |[keywords](https://open.kattis.com/problems/keywords)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/keywords.cpp)|
-|[knapsack](https://open.kattis.com/problems/knapsack)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/knapsack.cpp)|
+|[knightpacking](https://open.kattis.com/problems/knightpacking)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/knightpacking.cpp)|
 |[laptopsticker](https://open.kattis.com/problems/laptopsticker)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/laptopsticker.cpp)|
 |[lastfactorialdigit](https://open.kattis.com/problems/lastfactorialdigit)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/lastfactorialdigit.cpp)|
 |[leftbeehind](https://open.kattis.com/problems/leftbeehind)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/leftbeehind.cpp)|
@@ -130,15 +137,18 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[logicfunctions](https://open.kattis.com/problems/logicfunctions)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/logicfunctions.cpp)|
 |[lostlineup](https://open.kattis.com/problems/lostlineup)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/lostlineup.cpp)|
 |[luhnchecksum](https://open.kattis.com/problems/luhnchecksum)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/luhnchecksum.cpp)|
+|[magictrick](https://open.kattis.com/problems/magictrick)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/magictrick.cpp)|
 |[marswindow](https://open.kattis.com/problems/marswindow)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/marswindow.cpp)|
 |[mastermind](https://open.kattis.com/problems/mastermind)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/mastermind.cpp)|
 |[memorymatch](https://open.kattis.com/problems/memorymatch)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/memorymatch.cpp)|
 |[methodicmultiplication](https://open.kattis.com/problems/methodicmultiplication)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/methodicmultiplication.cpp)|
+|[metronome](https://open.kattis.com/problems/metronome)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/metronome.cpp)|
 |[mia](https://open.kattis.com/problems/mia)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/mia.cpp)|
 |[missingnumbers](https://open.kattis.com/problems/missingnumbers)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/missingnumbers.cpp)|
 |[mjehuric](https://open.kattis.com/problems/mjehuric)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/mjehuric.cpp)|
 |[moscowdream](https://open.kattis.com/problems/moscowdream)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/moscowdream.cpp)|
 |[mosquito](https://open.kattis.com/problems/mosquito)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/mosquito.cpp)|
+|[musicyourway](https://open.kattis.com/problems/musicyourway)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/musicyourway.cpp)|
 |[nastyhacks](https://open.kattis.com/problems/nastyhacks)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/nastyhacks.cpp)|
 |[natrij](https://open.kattis.com/problems/natrij)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/natrij.cpp)|
 |[nineknights](https://open.kattis.com/problems/nineknights)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/nineknights.cpp)|
@@ -154,7 +164,6 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[outofsorts](https://open.kattis.com/problems/outofsorts)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/outofsorts.cpp)|
 |[overdraft](https://open.kattis.com/problems/overdraft)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/overdraft.cpp)|
 |[peasoup](https://open.kattis.com/problems/peasoup)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/peasoup.cpp)|
-|[perfectskyline](https://open.kattis.com/problems/perfectskyline)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/perfectskyline.cpp)|
 |[pervasiveheartmonitor](https://open.kattis.com/problems/pervasiveheartmonitor)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/pervasiveheartmonitor.cpp)|
 |[piglatin](https://open.kattis.com/problems/piglatin)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/piglatin.cpp)|
 |[pivot](https://open.kattis.com/problems/pivot)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/pivot.cpp)|
@@ -183,6 +192,7 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[sifferprodukt](https://open.kattis.com/problems/sifferprodukt)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/sifferprodukt.cpp)|
 |[skruop](https://open.kattis.com/problems/skruop)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/skruop.cpp)|
 |[snapper](https://open.kattis.com/problems/snapper)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/snapper.cpp)|
+|[sortofsorting](https://open.kattis.com/problems/sortofsorting)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/sortofsorting.cpp)|
 |[sorttwonumbers](https://open.kattis.com/problems/sorttwonumbers)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/sorttwonumbers.cpp)|
 |[spellingbee](https://open.kattis.com/problems/spellingbee)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/spellingbee.cpp)|
 |[stararrangements](https://open.kattis.com/problems/stararrangements)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/stararrangements.cpp)|
@@ -214,3 +224,7 @@ Kattis table script taken from: https://github.com/matthewReff/Kattis-Problems/t
 |[wordcloud](https://open.kattis.com/problems/wordcloud)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/wordcloud.cpp)|
 |[yinyangstones](https://open.kattis.com/problems/yinyangstones)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/yinyangstones.cpp)|
 |[zanzibar](https://open.kattis.com/problems/zanzibar)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/zanzibar.cpp)|
+|[knapsack](https://open.kattis.com/problems/knapsack)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/knapsack.cpp)|
+|[mali](https://open.kattis.com/problems/mali)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/mali.cpp)|
+|[perfectskyline](https://open.kattis.com/problems/perfectskyline)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/perfectskyline.cpp)|
+|[sudokunique](https://open.kattis.com/problems/sudokunique)|[C++](https://github.com/luffingluffy/cp/tree/main/kattis/sudokunique.cpp)|
