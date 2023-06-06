@@ -14,11 +14,14 @@ typedef long double ld;
 typedef vector<char> vc;
 typedef vector<string> vs;
 typedef vector<int> vi;
+typedef vector<double> vd;
 typedef vector<long long> vll;
 typedef vector<long double> vld;
 typedef vector<vector<int>> vvi;
-typedef vector<vector<char>> vvc;
+typedef vector<vector<double>> vvd;
 typedef vector<vector<long long>> vvll;
+typedef vector<vector<char>> vvc;
+typedef vector<vector<string>> vvs;
 
 #define pb push_back
 #define pf push_front
@@ -28,6 +31,14 @@ typedef vector<vector<long long>> vvll;
 #define uset unordered_set
 #define all(c) (c).begin(), (c).end()
 #define sz(x) (int)(x).size()
+#define INF numeric_limits<ll>::max()
+
+#define has_bit(bm, x) ((bm) & (1ULL << (x)))
+#define xth_bit(x) (1ULL << (x))
+#define turn_on(bm, x) (bm |= (1ULL << (x)))
+#define turn_off(bm, x) (bm &= (~(1ULL << (x))))
+#define smallest_on(bm) ((bm) & (-(bm)))
+#define largest_on(bm) (63 - __builtin_clzll(bm))
 
 #define F_OR(i, a, b, s) for (int i = (a); (s) > 0 ? i < (b) : i > (b); i += (s))
 #define F_OR1(e) F_OR(i, 0, e, 1)
@@ -134,7 +145,7 @@ void print(const H& h, const T&... t) {
 /* Shortcut Cheatsheet:
     sz(x): x.size()
     all(v): v.begin(), v.end()
-    
+
     EACH(x, a): for (auto& x : a)
 
     FOR(e): for (int i = 0; i < e; i++)
