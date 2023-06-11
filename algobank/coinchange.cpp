@@ -25,3 +25,13 @@ int coinChange(vector<int>& coins, int amount) {
     vector<int> memo(amount + 1, -1);
     return dp(coins, amount, memo);
 }
+
+// Counting variant:
+int ways(int type, int value) {
+    if (value == 0) return 1;                  // one way, use nothing
+    if ((value < 0) || (type == N)) return 0;  // invalid or done
+    int& ans = memo[type][value];
+    if (ans != -1) return ans;                         // was computed before
+    return ans = ways(type + 1, value) +               // ignore this type
+                 ways(type, value - coinValue[type]);  // one more of this type
+}
