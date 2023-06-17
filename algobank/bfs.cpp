@@ -1,6 +1,7 @@
 void bfs() {
     vi dist(V, INF);
     dist[s] = 0;
+
     queue<int> q;
     q.push(s);
     while (!q.empty()) {
