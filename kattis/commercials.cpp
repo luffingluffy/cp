@@ -11,14 +11,12 @@ using oset = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node
 
 typedef long long ll;
 typedef long double ld;
-typedef pair<int, int> ii;
 typedef vector<char> vc;
 typedef vector<string> vs;
 typedef vector<int> vi;
 typedef vector<double> vd;
 typedef vector<long long> vll;
 typedef vector<long double> vld;
-typedef vector<pair<int, int>> vii;
 typedef vector<vector<int>> vvi;
 typedef vector<vector<double>> vvd;
 typedef vector<vector<long long>> vvll;
@@ -33,6 +31,7 @@ typedef vector<vector<string>> vvs;
 #define uset unordered_set
 #define all(c) (c).begin(), (c).end()
 #define sz(x) (int)(x).size()
+#define INF numeric_limits<ll>::max()
 
 #define has_bit(bm, x) ((bm) & (1ULL << (x)))
 #define xth_bit(x) (1ULL << (x))
@@ -164,6 +163,20 @@ void print(const H& h, const T&... t) {
 */
 
 void solve() {
+    int n, p;
+    read(n, p);
+
+    vi v(n);
+    read(v);
+
+    int sum = 0, ans = -INT_MAX;
+    FOR(n) {
+        sum += v[i] - p;
+        ans = max(ans, sum);
+        if (sum < 0) sum = 0;
+    }
+
+    print(ans);
 }
 
 int main() {
@@ -171,7 +184,7 @@ int main() {
     cin.tie(0);
 
     int t = 1;
-    read(t);
+    // read(t);
     FOR(t) {
         // write("Case #", i + 1, ": ");
         solve();

@@ -163,17 +163,46 @@ void print(const H& h, const T&... t) {
     print(): cout << '\n'
 */
 
+const int INF = 1e9;
+
 void solve() {
+    int n;
+    read(n);
+    vi toll(n - 1);
+    read(toll);
+    vi open_time(n);
+    read(open_time);
+
+    vi min_cost(n);
+    min_cost[0] = INF;
+    for (int i = 1; i < n; i++) {
+        min_cost[i] = min(min_cost[i - 1], toll[i - 1]);
+    }
+
+    int curr_time = 0;
+    ll dist = 0;
+    for (int i = 1; i < n; i++) {
+        dist += toll[i - 1];
+        curr_time++;
+        if (curr_time < open_time[i]) {
+            ll d = open_time[i] - curr_time;
+            if (d % 2 != 0) d++;
+            curr_time += d;
+            dist += d * min_cost[i];
+        }
+    }
+
+    print(dist);
 }
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
     int t = 1;
-    read(t);
-    FOR(t) {
-        // write("Case #", i + 1, ": ");
+    // cin >> t;
+    for (int i = 1; i <= t; i++) {
+        // cout << "Case #" << i << ": ";
         solve();
     }
 
